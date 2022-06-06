@@ -14,7 +14,6 @@ for(var i = 1; i < charArr.length-1; i++)
     // ve başlangıç ile son arasındaki indexlerin değerlerini * ile değiştirdim.
     charArr[i]="*";
 }
-console.log(text);
 //virgülleri null değerle değiştirdim bu sayede düzgün bir kelime olarak görünecek
 let text = charArr.join("");
 console.log(text);
