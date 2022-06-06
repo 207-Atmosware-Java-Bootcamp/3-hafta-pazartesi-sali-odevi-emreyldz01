@@ -25,9 +25,7 @@ function main()
         let mailInput=prompt("lütfen mailinizi giriniz");
          let passWInput=prompt("lütfen şifrenizi giriniz");
          //oluşturduğum admin fonksiyonuna yolladım
-        if(admin(mailInput,passWInput)===true){
-            //eğer girdiler doğrulanırsa döngü break ile durdurulacak
-            break;
+        admin(mailInput,passWInput);
         }
         //count 0 olduğunda hata mesajını kullanıcıya bildirilip loop değeri false olacak
         if(count===0)
@@ -37,6 +35,6 @@ function main()
         }
 }
 
-}
+
 //main fonksiyonununu çağırdım
 main();
